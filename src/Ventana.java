@@ -14,10 +14,8 @@ import javax.swing.JTextField;
  */
 public class Ventana extends JFrame implements ActionListener{
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
+	
 	private JTextField txtN1 = new JTextField();
 	private JTextField txtN2 = new JTextField();
 	
@@ -33,7 +31,7 @@ public class Ventana extends JFrame implements ActionListener{
 	private Operaciones op = new Operaciones();
 	
 	/**
-	 * Constructor
+	 * Constructor que inicia la ventana y carga los controles por defecto
 	 */
 	public Ventana(){
 		super.setTitle("Operaciones");
